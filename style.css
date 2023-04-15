@@ -87,3 +87,12 @@ p{
   td {
     margin: 5rem;
   }
+  .removebtn{
+    background-color: white;
+    color: black !important;
+    width: 5rem;
+    height: 2.5rem;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5rem;
+  }
