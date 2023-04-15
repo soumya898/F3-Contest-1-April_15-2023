@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Inter+Tight:wght@300&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>New Employees</title>
+
+</head>
+
+<body>
+    <h1> New Employees</h1>
+
+    <section class="inputs">
+        <div class="input">
+            <label for="name"> Enter Name</label> <br> 
+
+            <input type="text" id="name" required> <br>
+        </div>
+
+        <div class="input">
+            <label for="age"> Enter Age</label> <br>
+
+            <input type="number" id="age" required> <br>
+
+        </div>
+
+        <div class="input">
+            <label for="Profession"> Enter Profession</label> <br>
+            <input type="text" id="Profession" required> <br> <br>
+        </div>
+
+
+    </section>
+
+    <section id="btn">
+
+        <button id="adduser" type="submit">Add User</button>
+
+    </section>
+
+
+    <div class="alertmessage">
+
+        <div class="hidden" id="sucess"> Success : Employee Added! </div>
+        <div class="hidden" id="error"> Error : Please Make sure All the fields are filled before adding in an employee
+            ! </div>
+    </div>
+
+
+
+
+    <p id="add"> Added Employees</p>
+
+    <p id="zero"> You have 0 Employees</p>
+
+
+
+    <div class="employeeTable">
+        <table id="table">
+            <tbody id="tableData">
+
+            </tbody>
+        </table>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+    <script src="form.js"></script>
+
+</body>
+
+</html>
